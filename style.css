@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.main-container{
+    width: 100%;
+    height: 100vh;
+}
+
+.container{
+    width: 100%;
+    height: 100vh;
+}
+
+.navbar{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding-inline: 80px;
+}
+
+.navbar img{
+    width: 60px;
+    height: 30px;
+}
+
+.hero-section{
+    width: 100%;
+    height: 86vh;
+    display: flex;
+    flex-direction: row;
+}
+
+.left{
+    width: 50%;
+    height: 86vh;
+}
+
+.left h1{
+    padding-left: 80px;
+    padding-top: 150px;
+}
+
+.left p{
+    margin-top: 20px;
+    padding-left: 80px;
+}
+
+.left span{
+    display: flex;
+    flex-direction: row;
+    margin-top: 30px;
+}
+
+.div1 h2{
+    padding-left: 80px;
+    font-size: 15px;
+}
+
+.div2 h2{
+    font-size: 15px;
+    padding-left: 80px;
+}
+
+.div3 h2{
+    font-size: 15px;
+    padding-left: 80px;
+}
+
+#span2{
+   width: 500px;
+   height: auto;
+   display: flex;
+   align-items: center;
+   justify-content: space-evenly;
+   padding-left: 25px;
+   margin-top: 60px;
+}
+
+#span2 button{
+    width: 150px;
+    height: 40px;
+    border-radius: 8px;
+    border: 2px solid rgb(126, 14, 14);
+}
+
+#span2 button:first-child{
+    background-color:rgb(126, 14, 14);
+    color :white;
+    font-weight: 600;
+}
+
+#span2 button:last-child{
+    background-color:transparent;
+    color :rgb(126, 14, 14);
+    font-weight: 600;
+}
+
+.right{
+    width: 50%;
+    height: 86vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.right img:first-child{
+    z-index: -1;
+    margin-left: -10px;
+    margin-top: -300px;
+    /* width: 1200px; */
+    /* height: 1200px; */
+}
+
+.right img:nth-child(2){
+    z-index: 1;
+    width: 500px;
+    height: 750px;
+    margin-top: -850px;
+    margin-left: 200px;
+}
+
+.right img:last-child{
+    display: flex;
+    z-index: 2;
+    width: 200px;
+    height: 300px;
+    margin-top: -300px;
+    margin-left: 150px; 
+}
+
+/* Responsive CSS */
+
+
