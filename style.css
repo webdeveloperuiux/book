@@ -136,4 +136,35 @@
 
 /* Responsive CSS */
 
+@media (max-width:768px){
+
+    .main-container{
+        width: 100%;
+    }
+
+    .container{
+        width: 100%;
+    }
+
+    .navbar{
+        width: 100%;
+    }
+
+    .hero-section{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .hero-section h1{
+        margin-top: -60px;
+    }
+
+    .right img{
+        display: none;
+    }
+
+    #disappearing{
+        display: none;
+    }
+}
 
